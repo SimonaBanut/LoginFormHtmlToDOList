@@ -1,4 +1,4 @@
-/**
+package LoginFormSimo; /**
  * Created by Simona on 25.06.2016.
  */
 

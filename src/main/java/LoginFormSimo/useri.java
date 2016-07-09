@@ -1,7 +1,6 @@
-/**
+package LoginFormSimo; /**
  * Created by Simona on 25.06.2016.
  */
-import java.awt.*;
 import java.lang.String;
 import java.util.ArrayList;
 import java.util.List;

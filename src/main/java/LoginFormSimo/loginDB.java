@@ -1,3 +1,5 @@
+package LoginFormSimo;
+
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -7,8 +9,6 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Simona on 01.07.2016.
@@ -63,7 +63,7 @@ public class loginDB extends HttpServlet{
         else {
             System.out.println("user sau parola gresit");
               System.out.println("nu exista acest user in db ");
-                    String back = "/login.html";
+                    String back = "/index-login.html";
                     RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(back);
                     dispatcher.forward(request, response);
 
